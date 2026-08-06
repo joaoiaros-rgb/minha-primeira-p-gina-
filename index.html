@@ -32,6 +32,9 @@ article{
             display: flex;
 }
 
+.artigo-autor {
+            font-weight: bold;
+        }
 </style>
 
 <body>
@@ -52,11 +55,22 @@ article{
     <button>👍<span>0</span></button>
     <div>
     <article>
+        <article>
+            <div>
+        <h2> Treinamento </h2>
+        <p> Por: João Vitor de Almeida Iaros </p>
+        <p> O posicionamento da mão para encaixar a bola, é realizar um triangulo com as mãos.O segundo passo, é ensinar a saltar encaixando a bola, isso é chamado de ponte.  </p>
+    </main>
+    <button>❤️<span>0</span></button>
+    <button>👍<span>0</span></button>
+    <div>
+    <article>
 </body>
 <script>
     const botoes = document.querySelectorAll ("button");
 
 botoes.forEach(function(botao) {
+    let curtiu = false;
 botao.addEventListener("click", botaoClicado);
 function botaoClicado() {
 console.log("fui clicado");
@@ -69,7 +83,6 @@ texto.textContent--;
 curtiu = false;
 }
 }
-texto.textContent++;
 }
 );
 </script>
