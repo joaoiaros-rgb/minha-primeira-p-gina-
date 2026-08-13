@@ -1,0 +1,31 @@
+<style>
+    header {
+background-color: #0bd5c7;
+color: #080000;
+text-align: center;
+border: 5px solid #b1db06;
+padding: 16px;
+}
+main {
+background-color: #0bd5c7;
+color: #000304;
+text-align: justify;
+max-width: 800px;
+margin: 0 auto;
+border: 5px solid #b1db06;
+padding: 16px;
+display: flex;
+}
+img {
+     width: 700px;
+    height: 600px
+
+}
+article{
+            display: flex;
+}
+
+.artigo-autor {
+            font-weight: bold;
+        }
+</style>
