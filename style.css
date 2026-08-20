@@ -1,4 +1,4 @@
-<style>
+
     header {
 background-color: #0bd5c7;
 color: #080000;
@@ -10,11 +10,12 @@ main {
 background-color: #0bd5c7;
 color: #000304;
 text-align: justify;
-max-width: 800px;
 margin: 0 auto;
 border: 5px solid #b1db06;
 padding: 16px;
 display: flex;
+flex-wrap: wrap;
+flex: 1 1 40%;
 }
 img {
      width: 700px;
@@ -22,10 +23,23 @@ img {
 
 }
 article{
-            display: flex;
+      display: flex;
+              border: 1px solid #b1db06
+    margin: 16px;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
 }
 
 .artigo-autor {
             font-weight: bold;
         }
-</style>
+        
+body {
+    max-width: 100vw;
+}
