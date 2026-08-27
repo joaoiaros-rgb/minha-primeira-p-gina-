@@ -15,7 +15,7 @@ border: 5px solid #b1db06;
 padding: 16px;
 display: flex;
 flex-wrap: wrap;
-flex: 1 1 40%;
+flex: 1 1 25%;
 }
 img {
      width: 700px;
@@ -23,8 +23,8 @@ img {
 
 }
 article{
-      display: flex;
-              border: 1px solid #b1db06
+    display: flex;
+    border: 1px solid #b1db06
     margin: 16px;
     gap: 16px;
     flex-direction: column;
